@@ -7,8 +7,7 @@ namespace DeliveryRequestsApp
 {
     public partial class Form1 : Form
     {
-        private readonly string connectionString =
-            @"Server=WIN-PUURG92IVC5\SQLEXPRESS;Database=demo09.02.11;Trusted_Connection=True;TrustServerCertificate=True;";
+    string connectionString = @"Server=WIN-PUURG92IVC5\SQLEXPRESS;Database=demo09.02.11;Trusted_Connection=True;TrustServerCertificate=True;";
 
         public Form1()
         {
